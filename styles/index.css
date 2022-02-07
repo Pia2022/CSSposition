@@ -52,30 +52,63 @@
     top: 19.23%;
     bottom: 21.79%;
     color: #173A56;
+    background: #FF9900;
+    
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: #BCD0E5;
+
+    width: 175px;
+    height: 53px;
+    margin-top: 489px;
+    margin-left: 145px;
+    position: absolute;
+    background-color: #FF9900;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
 }
 
 .btn2 {
     Width: 110px;
     Height: 46px;
+    border-radius: 4px;
     margin-top: 15px;
     margin-left: 1145px;
     background-color: #FF9900;
+    border-radius: 4px;
     position: absolute;
     left: 81.79%;
     right: 10.36%;
     top: 19.23%;
     bottom: 21.79%;
     color: white;
+
+    position: absolute;
+    height: 24px;
+    left: 22.73%;
+    right: 20.91%;
+    top: calc(50% - 24px/2);
+
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
 }
 
-.titeldesign {
+.main-title {
     position: absolute;
-    width: 518px;
-    height: 108px;
+    max-width: 518px;
+    width: 100%;
+    max-height: 108px;
     margin-top: 211px;
     margin-left: 145px;
-    top: 211px;
-
+    
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -86,10 +119,11 @@
 }
 
 
-.text {
+.main-text {
     position: absolute;
-    width: 458px;
-    height: 95px;
+    max-width: 458px;
+    width: 100%;
+    max-height: 95px;
     margin-left: 145px;
     margin-top: 349px;
 
@@ -103,28 +137,34 @@
 }
 
 .btn3 {
-    Width 
-    175px
-    Height 
-    53px
-    Top 
-    489px
-    Left 
-    145px
+    width: 175px;
+    height: 53px;
+    margin-top: 489px;
+    margin-left: 145px;
     position: absolute;
     background-color: #FF9900;
-    color:
+    border-radius: 4px;
+    text-align: center;
+    color: white;
 }
 
-<--! GUL PIL -->
-
 .btn4 {
+    width: 20px;
+    height: 17px;
+    margin-top: 1,5px;
+    margin-left: 17,5px;
+    border-radius: 1,13px;
     position: absolute;
-    width: 161px;
-    height: 23px;
-    left: 350px;
-    top: 504px;
-    color: FF9900;    
+    text-align: center;
+      
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: FF9900; 
 }
 
 .container {
@@ -219,8 +259,67 @@ color: 2F281E;
     color: #2F281E;
 }
 
+.card1-info {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 46.94%;
+    bottom: 0%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
 
 
 .card2-info {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 46.94%;
+    bottom: 0%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */       
+    color: #544837;
+}
 
+.card3-info {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 46.94%;
+    bottom: 0%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+
+.card4-info {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 37.1%;
+    bottom: 0%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
 }

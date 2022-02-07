@@ -1,0 +1,49 @@
+
+.nav {
+    width: 1400px;
+    height: 78;
+    position: fixed;
+    margin-right: 20px;
+    Font: Poppins;
+    Weight: 400;
+    Style: normal;
+    Size: 14px;
+    Line height: 28px;
+    margin-top: 24px;
+}
+
+.img {
+    width: 185px;
+    height: 32px;
+    margin-top: 22px;
+    margin-left: 144px;
+
+}
+
+.btn1 {
+    width: 102px;
+    height: 46px;
+    margin-top: 15px;
+    margin-left: 1029px;
+    background-color: #BCD0E5;
+    position: absolute;
+    left: 73.5%;
+    right: 19.21%;
+    top: 19.23%;
+    bottom: 21.79%;
+    color: #173A56;
+}
+
+.btn2 {
+    Width: 110px;
+    Height: 46px;
+    margin-top: 15px;
+    margin-left: 1145px;
+    background-color: #FF9900;
+    position: absolute;
+    left: 81.79%;
+    right: 10.36%;
+    top: 19.23%;
+    bottom: 21.79%;
+    color: white;
+}

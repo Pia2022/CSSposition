@@ -13,12 +13,12 @@
 }
 
 .word1 {
+    /*
     position: absolute;
-    height: 28px;
     left: 46.43%;
     right: 28.57%;
     top: calc(50% - 28px/2 - 1px);
-    
+    */
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -26,12 +26,17 @@
     line-height: 28px;
     /* identical to box height, or 200% */     
     color: #2F281E;
-    Width:350px;
-    Height:28px;
-    Top: 24px;
-    Left:650px;
+    width:350px;
+    height:28px;
+    margin-top: 24px;
+    margin-left:650px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+section {
+    display: inline-block;
+}
 .img {
     width: 185px;
     height: 32px;
@@ -46,6 +51,7 @@
     margin-top: 15px;
     margin-left: 1029px;
     background-color: #BCD0E5;
+    /*
     position: absolute;
     left: 73.5%;
     right: 19.21%;
@@ -53,12 +59,13 @@
     bottom: 21.79%;
     color: #173A56;
     background: #FF9900;
+    */
     
     border: 1px solid #BCD0E5;
     box-sizing: border-box;
     border-radius: 4px;
     border-color: #BCD0E5;
-
+/*
     width: 175px;
     height: 53px;
     margin-top: 489px;
@@ -66,8 +73,18 @@
     position: absolute;
     background-color: #FF9900;
     border-radius: 4px;
+    */
+        color: #173A56;
+}
+
+.btn-text {
     text-align: center;
-    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
 }
 
 .btn2 {
@@ -90,14 +107,6 @@
     left: 22.73%;
     right: 20.91%;
     top: calc(50% - 24px/2);
-
-    text-align: center;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
     color: #FFFFFF;
 }
 
@@ -144,7 +153,6 @@
     position: absolute;
     background-color: #FF9900;
     border-radius: 4px;
-    text-align: center;
     color: white;
 }
 
@@ -155,14 +163,6 @@
     margin-left: 17,5px;
     border-radius: 1,13px;
     position: absolute;
-    text-align: center;
-      
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
     text-decoration-line: underline;
     color: FF9900; 
 }
@@ -186,21 +186,8 @@
 
 .card {
     position: absolute;
-width: 240px;
-height: 178px;
-left: 567px;
-top: 162px;
-color: 2F281E;
-
-}
-
-.card1 {
-    position: absolute;
     height: 33px;
     left: 0%;
-    right: 20%;
-    top: calc(50% - 33px/2 - 45.5px);
-
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -210,56 +197,53 @@ color: 2F281E;
     color: #2F281E;
 }
 
+.first-click {
+    right: 20%;
+    top: calc(50% - 33px/2 - 45.5px);
+}
 
-.card2 {
-    position: absolute;
-    height: 33px;
-    left: 0%;
+
+.design-survey {
     right: 29.17%;
     top: calc(50% - 33px/2 - 32.5px);
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
-    /* identical to box height */
-    color: #2F281E;
 }
 
-.card3 {
-    position: absolute;
-    height: 33px;
-    left: 0%;
+.heart {
+    position: relative;
+      width: 100px;
+      height: 90px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+  }
+
+.preference-tests {
     right: 24.58%;
     top: calc(50% - 33px/2 - 32.5px);
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
-    /* identical to box height */
-    color: #2F281E;
 }
 
-.card4 {
-    position: absolute;
-    height: 33px;
-    left: 0%;
+.five-second {
     right: 20%;
     top: calc(50% - 33px/2 - 45.5px);
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
-    /* identical to box height */
-    color: #2F281E;
 }
 
-.card1-info {
+.icon-info {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -275,51 +259,18 @@ color: 2F281E;
     color: #544837;
 }
 
+.column1 {
 
-.card2-info {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 46.94%;
-    bottom: 0%;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */       
-    color: #544837;
 }
 
-.card3-info {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 46.94%;
-    bottom: 0%;
+.column2 {
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-    color: #544837;
 }
 
-.card4-info {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 37.1%;
-    bottom: 0%;
+.column3 {
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-    color: #544837;
+}
+
+.column4 {
+
 }
